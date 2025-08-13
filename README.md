@@ -1,38 +1,36 @@
-# meu-primeiro-repo
-def soma(a, b):
-    return a + b
+# 👋 Meu Primeiro Repositório no GitHub
 
-def subtracao(a, b):
-    return a - b
+Bem-vindo ao meu primeiro repositório! 🚀  
+Este espaço será utilizado para armazenar meus estudos e projetos iniciais enquanto aprendo **Python** e **Análise e Desenvolvimento de Sistemas**.
 
-def multiplicacao(a, b):
-    return a * b
+---
 
-def divisao(a, b):
-    if b == 0:
-        return "Erro: divisão por zero!"
-    return a / b
+## 📚 Sobre mim
+- 🎓 Estudante de **ADS (Análise e Desenvolvimento de Sistemas)**  
+- 💻 Iniciando na programação com **Python**  
+- 📍 São Paulo - SP  
+- 🌱 Aprendendo: lógica de programação, Git/GitHub, e desenvolvimento back-end  
 
-print("=== Calculadora Simples ===")
-print("Operações disponíveis: +, -, *, /")
+---
 
-while True:
-    op = input("\nEscolha uma operação (+, -, *, /) ou 'sair' para encerrar: ")
+## 🛠 Tecnologias que estou aprendendo
+- Python 🐍
+- Git e GitHub 🔗
+- Lógica de Programação 🧠
 
-    if op.lower() == 'sair':
-        print("Encerrando a calculadora. Até mais!")
-        break
+---
 
-    num1 = float(input("Digite o primeiro número: "))
-    num2 = float(input("Digite o segundo número: "))
+## ✅ Objetivo deste repositório
+- Compartilhar exercícios e pequenos projetos
+- Mostrar meu progresso na programação
+- Criar um portfólio para oportunidades futuras
 
-    if op == '+':
-        print(f"Resultado: {soma(num1, num2)}")
-    elif op == '-':
-        print(f"Resultado: {subtracao(num1, num2)}")
-    elif op == '*':
-        print(f"Resultado: {multiplicacao(num1, num2)}")
-    elif op == '/':
-        print(f"Resultado: {divisao(num1, num2)}")
-    else:
-        print("Operação inválida!")
+---
+
+## 📌 Como contribuir
+Se quiser dar dicas, sugestões ou me ajudar a evoluir, fique à vontade para abrir um **Pull Request** ou me chamar! 😊
+
+---
+
+## 📄 Licença
+Este projeto está sob a licença MIT.
